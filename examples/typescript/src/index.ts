@@ -254,7 +254,7 @@ addFileButton.onclick = () => {
   const element1 = document.createElement("input");
   element1.type = "text";
   element1.id = "offset" + rowCount;
-  element1.value = "0x1000";
+  element1.value = "0x0";
   cell1.appendChild(element1);
 
   // Column 2 - File selector
